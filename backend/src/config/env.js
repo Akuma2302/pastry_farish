@@ -4,7 +4,7 @@ require('dotenv').config();
 //  Centralised environment configuration
 // ─────────────────────────────────────────
 const env = {
-  BOT_TOKEN: '8901982392:AAGhg7FxW4-qvl6zNejebEzcMkVMveNEjf0',
+  BOT_TOKEN: '8853873129:AAEVJrQPHhUBoLSA2qFA-FA1r-z-a6lSBpc',
   MONGO_URI: 'mongodb+srv://asyraaf2302_db_user:FJFJIu4hzUfpL2AU@cluster0.9jhroj0.mongodb.net/',
   PORT: 3000,
   TIMEZONE: 'Asia/Kuala_Lumpur',

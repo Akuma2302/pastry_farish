@@ -12,7 +12,7 @@ let db;
 async function connectDB() {
   client = new MongoClient(env.MONGO_URI);
   await client.connect();
-  db = client.db('fnb_tracker');
+  db = client.db('pastry_farish');
 
   // Unique per salesperson per date — one entry per person per day
   await db.collection('entries').createIndex(
